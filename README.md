@@ -10,8 +10,9 @@ Answer to given questions. To make it easier to evaluate the answers which was g
 
 ||% Correct Answers|% Wrong Answers|% Total|
 |----|----|----|----|
-|Human||||
-|GPT3.5-turbo|12.1|-|12.1|
-|Japanese-StableLM-Instruct-Alpha-7B||||
-|ELYZA-japanese-Llama-2-7b-instruct||||
-|matsuo-lab/weblab-10b-instruction-sft||||
+|Human|12.1|-|12.1|
+|GPT3.5-turbo|18.5|19.4|37.9|
+|Japanese-StableLM-Instruct-Alpha-7B|7.1|18.3|25.4|
+|ELYZA-japanese-Llama-2-7b-instruct|2.0|11.4|13.4|
+|weblab-10b-instruction-sft|3.6|7.6|11.2|
+
