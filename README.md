@@ -9,6 +9,7 @@ Answer to given questions. To make it easier to evaluate the answers which was g
 ## Dataset
 
 ||% Correct Answers|% Wrong Answers|% Total|
+|----|----|----|----|
 |Human||||
 |GPT3.5-turbo|12.1|-|12.1|
 |Japanese-StableLM-Instruct-Alpha-7B||||
