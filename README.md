@@ -18,11 +18,11 @@ Each question has the best answer created by human. The dataset includes correct
 
 ||Fact|Knowledge|Uncategorized Knowledge|All|
 |----|----|----|----|----|
-|Human(with search)|||||
-|Human(without search)|||||
-|GPT3.5-turbo|||||
-|GPT4|||||
-|Japanese-StableLM-Instruct-Alpha-7B|||||
-|ELYZA-japanese-Llama-2-7b-instruct|||||
-|weblab-10b-instruction-sft|||||
-|line|||||
+|Human(with search)|0.741|0.762|0.647|0.750|
+|Human(without search)|0.753|0.579|0.588|0.654|
+|GPT3.5-turbo|0.78|0.177|0.235|0.437|
+|GPT4|0.869|0.409|0.529|0.609|
+|stabilityai/japanese-stablelm-instruct-alpha-7b|0.212|0.271|0.235|0.245|
+|elyza/ELYZA-japanese-Llama-2-7b-instruct|0.564|0.146|0.176|0.326|
+|matsuo-lab/weblab-10b-instruction-sft|0.174|0.201|0.353|0.194|
+|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|
