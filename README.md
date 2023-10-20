@@ -26,5 +26,5 @@ Each question has the best answer created by human. The dataset includes correct
 |Human|12.1|-|12.1|
 |GPT-3.5-turbo|18.5|19.4|37.9|
 |stabilityai/Japanese-StableLM-Instruct-Alpha-7B|7.1|18.3|25.4|
-|matsuo-lab/elyza/ELYZA-japanese-Llama-2-7b-instruct|2.0|11.4|13.4|
-|weblab-10b-instruction-sft|3.6|7.6|11.2|
+|elyza/ELYZA-japanese-Llama-2-7b-instruct|2.0|11.4|13.4|
+|matsuo-lab/weblab-10b-instruction-sft|3.6|7.6|11.2|
