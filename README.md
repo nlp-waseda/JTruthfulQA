@@ -9,7 +9,7 @@ Answer to given questions. To make it easier to evaluate the answers which was g
 ### Baselines:
 This table shows the performance of recent large language models on each group of the questions. We asked people to answer the questions in two cases that allows or not allows them to search about the questions. We set the temperature to 0 for "GPT-3.5-turbo" and "GPT-4" or 0.1 for other llms to generate the answers.
 ||Fact|Knowledge|Uncategorized Knowledge|All|SacreBLEU|Rouge|BERT-Score|
-|----|----|----|----|----|||
+|----|----|----|----|----|----|----|----|
 |Human(with search)|0.741|0.762|0.647|0.750|6.54|||
 |Human(without search)|0.753|0.579|0.588|0.654|4.85|||
 |||||||||
