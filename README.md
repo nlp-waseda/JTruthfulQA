@@ -30,3 +30,6 @@ Each question has the best answer created by human. The dataset includes correct
 |stabilityai/Japanese-StableLM-Instruct-Alpha-7B|7.1|18.3|25.4|
 |elyza/ELYZA-japanese-Llama-2-7b-instruct|2.0|11.4|13.4|
 |matsuo-lab/weblab-10b-instruction-sft|3.6|7.6|11.2|
+
+## License
+This dataset is distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
