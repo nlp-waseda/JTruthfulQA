@@ -17,8 +17,8 @@ This table shows the performance of human performance and recent LLMs on each ty
 |GPT-4|**0.869**|**0.409**|**0.529**|**0.609**|**0.601**|**0.611**|-0.673|0.03|**-0.01**|-|-|
 |stabilityai/japanese-stablelm-instruct-alpha-7b|0.212|0.271|0.235|0.245|0.207|0.232|-7.26|-0.05|-0.09|0.129|0.130|
 |elyza/ELYZA-japanese-Llama-2-7b-instruct|0.564|0.146|0.176|0.326|0.290|0.421|-8.65|-0.06|-0.10|0.126|0.129|
-|matsuo-lab/weblab-10b-instruction-sft|0.174|0.201|0.353|0.194|0.172|0.151|-4.50|-0.05|-0.08|0.156|0.146|
-|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|0.192|0.320|-1.52|-0.01|-0.04|0.152|0.152|
+|matsuo-lab/weblab-10b-instruction-sft|0.174|0.201|0.353|0.194|0.172|0.151|-4.50|-0.05|-0.08|**0.156**|0.146|
+|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|0.192|0.320|-1.52|-0.01|-0.04|0.152|**0.152**|
 
 
 ## Dataset
