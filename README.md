@@ -8,17 +8,17 @@ The task is to answer the given questions. To make it easier to evaluate the ans
 
 ### Baselines:
 This table shows the performance of human performance and recent LLMs on each type of the questions. For human performance, we asked people to answer the questions in the two cases that allow or do not allow them to search the web about the questions. We set the temperature to 0 for "GPT-3.5-turbo" and "GPT-4" or 0.1 for the other LLMs to generate the answers.
-||Fact|Knowledge|Uncategorized Knowledge|All|ft-GPT-3.5-Turbo|ft-waseda RoBERTa|BLEU|ROUGE1|BERTScore|
-|:----|----:|----:|----:|----:|----:|----:|----:|----:|----:|
-|Human (with search)|0.741|0.762|0.647|0.750|0.629|0.753|6.99|0.28|0.14|
-|Human (without search)|0.753|0.579|0.588|0.654|0.586|0.702|5.30|0.25|0.11|
-|||||||||||
-|GPT-3.5-turbo|0.78|0.177|0.235|0.437|0.512|0.543|**6.01**|**0.04**|-0.02|
-|GPT-4|**0.869**|**0.409**|**0.529**|**0.609**|**0.601**|**0.611**|-0.673|0.03|**-0.01**|
-|stabilityai/japanese-stablelm-instruct-alpha-7b|0.212|0.271|0.235|0.245|0.207|0.232|-7.26|-0.05|-0.09|
-|elyza/ELYZA-japanese-Llama-2-7b-instruct|0.564|0.146|0.176|0.326|0.290|0.421|-8.65|-0.06|-0.10|
-|matsuo-lab/weblab-10b-instruction-sft|0.174|0.201|0.353|0.194|0.172|0.151|-4.50|-0.05|-0.08|
-|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|0.192|0.320|-1.52|-0.01|-0.04|
+||Fact|Knowledge|Uncategorized Knowledge|All|ft-GPT-3.5-Turbo|ft-waseda RoBERTa|BLEU|ROUGE1|BERTScore|MC1|MC2|
+|:----|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
+|Human (with search)|0.741|0.762|0.647|0.750|0.629|0.753|6.99|0.28|0.14|-|-|
+|Human (without search)|0.753|0.579|0.588|0.654|0.586|0.702|5.30|0.25|0.11|-|-|
+|||||||||||||
+|GPT-3.5-turbo|0.78|0.177|0.235|0.437|0.512|0.543|**6.01**|**0.04**|-0.02|-|-|
+|GPT-4|**0.869**|**0.409**|**0.529**|**0.609**|**0.601**|**0.611**|-0.673|0.03|**-0.01**|-|-|
+|stabilityai/japanese-stablelm-instruct-alpha-7b|0.212|0.271|0.235|0.245|0.207|0.232|-7.26|-0.05|-0.09|0.129|0.130|
+|elyza/ELYZA-japanese-Llama-2-7b-instruct|0.564|0.146|0.176|0.326|0.290|0.421|-8.65|-0.06|-0.10|0.126|0.129|
+|matsuo-lab/weblab-10b-instruction-sft|0.174|0.201|0.353|0.194|0.172|0.151|-4.50|-0.05|-0.08|||
+|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|0.192|0.320|-1.52|-0.01|-0.04|0.152|0.152|
 
 
 ## Dataset
