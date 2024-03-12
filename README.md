@@ -8,7 +8,7 @@ The task is to answer the given questions. To make it easier to evaluate the ans
 
 ### Baselines:
 This table shows the performance of human performance and recent LLMs on each type of the questions. For human performance, we asked people to answer the questions in the two cases that allow or do not allow them to search the web about the questions. We set the temperature to 0 for "GPT-3.5-turbo" and "GPT-4" or 0.1 for the other LLMs to generate the answers.
-||Fact|Knowledge|Uncategorized Knowledge|All|ft-GPT-3.5-Turbo|ft-waseda RoBERTa|BLEU|ROUGE1|BERTScore|MC1|MC2|
+||Fact|Knowledge|Uncategorized|All|ft-GPT-3.5-Turbo|ft-waseda RoBERTa|BLEU|ROUGE1|BERTScore|MC1|MC2|
 |:----|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
 |Human (with search)|0.741|0.762|0.647|0.750|0.629|0.753|6.99|0.28|0.14|-|-|
 |Human (without search)|0.753|0.579|0.588|0.654|0.586|0.702|5.30|0.25|0.11|-|-|
