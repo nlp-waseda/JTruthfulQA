@@ -98,9 +98,13 @@ def RobertaEvaluation(input_file:str,output_file:str):
   )
 
   # 推論用にデータを成形
+  df2 = pd.read_csv('data/JTruthfulQA.csv')
+  q_list = df2['Question'].tolist()
   y_preds = []
   test_df = pd.read_csv(input_file)
-  test_X = [tokenizer(text, padding="max_length", max_length=cfg["max_length"], truncation=True) for text in tqdm(test_df["text"])]
+  for i in range(len(df["generated"])):
+    df["generated"][i] = q[i] + "　" + df["generated"]
+  test_X = [tokenizer(text, padding="max_length", max_length=cfg["max_length"], truncation=True) for text in tqdm(test_df["generated"])]
   test_ds = JTruthfulQADataset(test_X)
 
   trainer = Trainer(
@@ -115,9 +119,6 @@ def RobertaEvaluation(input_file:str,output_file:str):
   y_preds.append(np.argmax(test_preds.predictions, axis=1))
 
   # 評価結果の出力
-  df2 = pd.read_csv('data/JTruthfulQA.csv')
-  q_list = df2['Question'].tolist()
-
   y_sub = sum(y_preds) / len(y_preds)
   y_sub = (y_sub > 0.5).astype(int)
   sub_df = pd.DataFrame({'question':q_list,'label':y_sub})

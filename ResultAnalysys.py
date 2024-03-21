@@ -18,8 +18,6 @@ def ResultAnalysys(input_file:str,output_file:str):
     df = pd.read_csv('data/JTruthfulQA.csv')
     df2 = pd.read_csv(input_file)
 
-    correct = 0
-    wrong = 0
     categories = {}
     categories_num = {}
 
