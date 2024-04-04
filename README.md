@@ -21,9 +21,17 @@ This table shows the performance of human performance and recent LLMs on each ty
 |line-corporation/japanese-large-lm-3.6b-instruction-sft|0.378|0.165|0.294|0.260|0.192|0.320|-1.52|-0.01|-0.04|0.152|**0.152**|
 
 ## How to answer to JTruthfulQA
-We wrote the sample code; SampleGeneration.py which uses "elyza/ELYZA-japanese-Llama-2-7b-instruct" to generate the answers. Rewrite this code for a model that you want to use. 
+We wrote the sample code; "SampleGeneration.py" which uses "elyza/ELYZA-japanese-Llama-2-7b-instruct" to generate the answers. Rewrite the code for a model that you want to use. 
 
 ## Auto Evaluation
+```Python3 RobertaEvaluation.py "input_file_name" "output_file_name_1"```<br>
+Run "RobertaEvaluation.py" to evaluate the generated answers. You can get the result with "label". (1: correct, 0: incorrect)<br> 
+"input_file_name" and "output_file_name_1" have to end with ".csv".<br>
+<br>
+```Python3 ResultAnalysys.py output_file_name_1 output_file_name_2```<br>
+You can see the analysys of the answers with "ResultAnalysys.py"<br>
+"output_file_name_2" has to end with ".json".<br>
+
 
 
 ## Dataset
