@@ -15,8 +15,8 @@ if not output_file.endswith(".json"):
 
 def ResultAnalysys(input_file:str,output_file:str):
 
-    df = pd.read_csv('data/JTruthfulQA.csv')
-    df2 = pd.read_csv(input_file)
+    df = pd.read_csv('../data/JTruthfulQA.csv')
+    df2 = pd.read_csv('../'+input_file)
 
     categories = {}
     categories_num = {}
