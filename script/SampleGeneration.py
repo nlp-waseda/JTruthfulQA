@@ -14,7 +14,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto")
 if torch.cuda.is_available():
     model = model.to("cuda")
 
-df = pd.read_csv('../data/JTruthfulQA.csv')
+df = pd.read_csv('data/JTruthfulQA.csv')
 
 generated = []
 
