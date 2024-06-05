@@ -47,7 +47,7 @@ This dataset has 2,125 correct answers and 2,267 incorrect answers (4,392 answer
   author = "中村友亮 and 河原大輔",
   title = "日本語TruthfulQAの構築",
   booktitle = "言語処理学会第30回年次大会",
-  year =	"2024",
+  year = "2024",
   url = "https://anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-15.pdf",
   pages = "1709--1714",
   note= "in Japanese"
