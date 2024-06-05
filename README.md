@@ -41,5 +41,21 @@ This dataset has 3,078 correct answers and 3,281 incorrect answers (6,359 answer
 ```JTruthfulQA_without_gpt.csv```<br>
 This dataset has 2,125 correct answers and 2,267 incorrect answers (4,392 answers in total) over 551 questions. The answers of GPT-3.5-turbo are excluded from this dataset.
 
+## Reference
+```
+@InProceedings{Kurihara_nlp2022,
+  author = "中村友亮 and 河原大輔",
+  title = "日本語TruthfulQAの構築",
+  booktitle = "言語処理学会第30回年次大会",
+  year =	"2024",
+  url = "https://anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-15.pdf",
+  pages = "1709--1714",
+  note= "in Japanese"
+}
+```
+
 ## License
 This dataset is distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Acknowledgment
+This dataset was created in collaboration with SB Intuitions Corp. and Waseda University.
